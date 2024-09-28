@@ -1,0 +1,7 @@
+print("Один друг 10000,второй друг 1000,а третий друг 3000")
+number1 = input()
+number2 = input()
+number3 = input()
+print(int(number1) + (int(number2) + (int(number3))))
+print("Нехватает")
+print(int(15000) - (int(number1) + (int(number2) + (int(number3)))))

@@ -1,0 +1,7 @@
+print("Сколько вы купили молока?")
+number1 = input()
+print("Сколько вы купили хлеба?")
+number2 = input()
+print("Сколько вы купили сосисок?")
+number3 = input()
+print((int(number1) * 100)+(int(number2) * 32)+(int(number3) * 6))))
