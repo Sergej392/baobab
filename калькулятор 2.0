@@ -1,0 +1,12 @@
+import time
+operation = input()
+number1 = input()
+number2 = input()
+b = 0
+if operation == "+":
+    print(int(number1)+int(number2))
+print("Подождите,я считаю!Это может занять некоторое время")
+time.sleep(5)
+print("Осталось совсем чуть-чуть")
+time.sleep(10)
+print("Готово")
