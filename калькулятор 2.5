@@ -1,0 +1,21 @@
+import time
+number1 = float(input())
+operation = input()
+number2 = float(input())
+b = 0
+if operation == "+":
+    result = number1 + number2
+elif operation == "-":
+    result = number1 - number2
+elif operation == "*":
+    result = number1 * number2
+elif operation == "/":
+    result = number1 / number2
+else:
+    print("Неверная операция")
+print("Подождите,я считаю!Это может занять некоторое время")
+time.sleep(5)
+print("Осталось совсем чуть-чуть")
+time.sleep(10)
+print("Готово")
+print(result)
