@@ -1,0 +1,9 @@
+x = "Pi Mr,Pi"
+while True:
+    print("Введите пароль и логин")
+    x = input()
+    if x == "Pi Mr.Pi":
+        print("Вход успешен")
+        break
+    else:
+       print("Логин или пароль не верен")
