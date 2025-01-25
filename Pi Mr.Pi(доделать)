@@ -1,0 +1,14 @@
+while True:
+    print("Введите пароль")
+    x = input()
+    if x == "Pi":
+        print("Пароль верен")
+    print("Введите логин")
+    y = input()    
+    if y == "MrPi":          
+        print("Логин верен")
+if not x == "Pi" and not y == "Mr.Pi":
+    print("Вход успешен")
+if not x == "Pi" and not y == "Mr.Pi":
+    print("Логин или пароль не верен")
+    break
